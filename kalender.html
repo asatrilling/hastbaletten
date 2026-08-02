@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kalender – Hästbaletten | Lena Lilja</title>
+<meta name="description" content="Kommande kurser, clinics och Sitsprofil-tillfällen med Lena Lilja / Hästbaletten. Se datum och boka din plats.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ===== HEADER (samma på alla sidor) ===== -->
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <span class="brand__name">Hästbaletten</span>
+      <span class="brand__sub">Lena Lilja</span>
+    </a>
+    <button class="nav__toggle" aria-label="Meny" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="nav__links">
+      <li><a href="index.html">Start</a></li>
+      <li><a href="sadlar.html">Sadlar till salu</a></li>
+      <li><a href="sadelprovning.html">Sadelprovning</a></li>
+      <li><a href="kurser.html">Kurser &amp; träning</a></li>
+      <li><a href="kalender.html">Kalender</a></li>
+      <li><a href="om.html">Om Lena</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+      <li class="nav__cta"><a class="btn btn--primary" href="sadelprovning.html#boka">Boka provning</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- ===== PAGE HERO ===== -->
+<section class="page-hero">
+  <div class="container">
+    <span class="kicker">Kalender</span>
+    <h1>Kommande kurser &amp; clinics</h1>
+    <p>Här ser du kommande dressyrlektioner, clinics och Sitsprofil-tillfällen. Håll koll på datumen och boka din plats i tid.</p>
+  </div>
+</section>
+
+<!-- ===== KOMMANDE DATUM ===== -->
+<section class="section bg-cream">
+  <div class="container">
+    <div class="center" style="margin-bottom:32px">
+      <span class="kicker">Kommande</span>
+      <h2>Boka in dig på nästa tillfälle</h2>
+      <p class="lead" style="margin-left:auto;margin-right:auto">Exempel på hur kalendern visas – uppdateras med Lenas aktuella datum.</p>
+    </div>
+    <ul class="agenda">
+      <li>
+        <div class="date"><div class="d">12</div><div class="m">Sep</div></div>
+        <div class="info">
+          <h3>Sitsprofilen med tryckmattan</h3>
+          <p>Frösthult Gästre, Fjärdhundra · enskilda tider under dagen</p>
+          <span class="tag">Sitsprofil</span>
+        </div>
+      </li>
+      <li>
+        <div class="date"><div class="d">27</div><div class="m">Sep</div></div>
+        <div class="info">
+          <h3>Clinic – sits &amp; hjälpgivning</h3>
+          <p>Gruppclinic med fokus på hjälpgivning · begränsat antal platser</p>
+          <span class="tag">Clinic</span>
+        </div>
+      </li>
+      <li>
+        <div class="date"><div class="d">18</div><div class="m">Okt</div></div>
+        <div class="info">
+          <h3>Föreläsning &amp; demonstration av tryckmattan</h3>
+          <p>Teori om sits och hjälpgivning samt frågestund · 1,5 tim</p>
+          <span class="tag">Föreläsning</span>
+        </div>
+      </li>
+      <li>
+        <div class="date"><div class="d">08</div><div class="m">Nov</div></div>
+        <div class="info">
+          <h3>Programträning inför tävling</h3>
+          <p>Rid ditt program och finslipa delarna · ta med protokoll</p>
+          <span class="tag">Programträning</span>
+        </div>
+      </li>
+    </ul>
+    <div class="center" style="margin-top:32px"><a class="btn btn--primary" href="kontakt.html">Boka din plats</a></div>
+  </div>
+</section>
+
+<!-- ===== LIVE-KALENDER (Google Kalender) =====
+     När Lena har en Google Kalender: klistra in embed-koden härifrån
+     (Google Kalender → Inställningar → "Bädda in kalender") i .cal-embed nedan,
+     så visas alla tillfällen live och uppdateras automatiskt.
+     Exempel:
+     <div class="cal-embed"><iframe src="https://calendar.google.com/calendar/embed?src=DIN_KALENDER_ID&ctz=Europe%2FStockholm"></iframe></div>
+-->
+<section class="section bg-white">
+  <div class="container">
+    <div class="center" style="margin-bottom:28px">
+      <span class="kicker">Live-kalender</span>
+      <h2>Alltid uppdaterad</h2>
+      <p class="lead" style="margin-left:auto;margin-right:auto">Här kan Lenas Google Kalender bäddas in så att alla tillfällen visas live och uppdateras automatiskt – utan att sidan behöver ändras.</p>
+    </div>
+    <div class="cal-embed">
+      <div class="ph" style="min-height:420px;border-radius:0">
+        <span class="ph__tag">Kalender</span>
+        <span>Google Kalender bäddas in här när den är kopplad. Under tiden gäller datumen ovan.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA-BAND ===== -->
+<section class="section--tight bg-cream">
+  <div class="container">
+    <div class="cta-band">
+      <div>
+        <h2>Vill du ha ett eget tillfälle?</h2>
+        <p>Hittar du ingen tid som passar? Hör av dig så bokar vi in något som fungerar för dig och din häst.</p>
+      </div>
+      <a class="btn btn--primary" href="kontakt.html">Kontakta Lena</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER (samma på alla sidor) ===== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="brand__name" style="font-family:var(--serif);font-size:1.5rem">Hästbaletten</span>
+        <p style="margin-top:10px">Sadelutprovning, sadelförsäljning och dressyrträning med Lena Lilja. Precision, lätthet och elegans.</p>
+        <div class="social">
+          <a href="https://www.instagram.com/lilja.lena/" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2Zm0 1.8c-3.1 0-3.5 0-4.7.1-1.1.1-1.7.2-2.1.4-.5.2-.9.4-1.3.8-.4.4-.6.8-.8 1.3-.2.4-.3 1-.4 2.1-.1 1.2-.1 1.6-.1 4.7s0 3.5.1 4.7c.1 1.1.2 1.7.4 2.1.2.5.4.9.8 1.3.4.4.8.6 1.3.8.4.2 1 .3 2.1.4 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1.1-.1 1.7-.2 2.1-.4.5-.2.9-.4 1.3-.8.4-.4.6-.8.8-1.3.2-.4.3-1 .4-2.1.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1.1-.2-1.7-.4-2.1-.2-.5-.4-.9-.8-1.3-.4-.4-.8-.6-1.3-.8-.4-.2-1-.3-2.1-.4-1.2-.1-1.6-.1-4.7-.1Zm0 3.1a4.9 4.9 0 1 1 0 9.8 4.9 4.9 0 0 1 0-9.8Zm0 8.1a3.2 3.2 0 1 0 0-6.4 3.2 3.2 0 0 0 0 6.4Zm6.2-8.3a1.1 1.1 0 1 1-2.3 0 1.1 1.1 0 0 1 2.3 0Z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Sidor</h4>
+        <ul>
+          <li><a href="sadlar.html">Sadlar till salu</a></li>
+          <li><a href="sadelprovning.html">Sadelprovning</a></li>
+          <li><a href="kurser.html">Kurser &amp; träning</a></li>
+          <li><a href="kalender.html">Kalender</a></li>
+          <li><a href="om.html">Om Lena</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul>
+          <li>Frösthult Gästre 14<br>749 72 Fjärdhundra</li>
+          <li><a href="tel:+46706727037">070-672 70 37</a></li>
+          <li><a href="mailto:info@lenalilja.se">info@lenalilja.se</a></li>
+          <li>Telefontid: mån–fre 8:30–10:30</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Hästbaletten – Lena Lilja</span>
+      <span>Precision · lätthet · elegans</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

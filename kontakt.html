@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kontakt – Hästbaletten | Lena Lilja</title>
+<meta name="description" content="Kontakta Lena Lilja / Hästbaletten – frågor om sadlar, sadelprovning eller kurser. Ring, mejla eller skicka ett meddelande.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ===== HEADER (samma på alla sidor) ===== -->
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <span class="brand__name">Hästbaletten</span>
+      <span class="brand__sub">Lena Lilja</span>
+    </a>
+    <button class="nav__toggle" aria-label="Meny" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="nav__links">
+      <li><a href="index.html">Start</a></li>
+      <li><a href="sadlar.html">Sadlar till salu</a></li>
+      <li><a href="sadelprovning.html">Sadelprovning</a></li>
+      <li><a href="kurser.html">Kurser &amp; träning</a></li>
+      <li><a href="kalender.html">Kalender</a></li>
+      <li><a href="om.html">Om Lena</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+      <li class="nav__cta"><a class="btn btn--primary" href="sadelprovning.html#boka">Boka provning</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- ===== PAGE HERO ===== -->
+<section class="page-hero">
+  <div class="container">
+    <span class="kicker">Kontakt</span>
+    <h1>Hör av dig</h1>
+    <p>Frågor om en sadel, en provning eller en kurs? Ring, mejla eller skicka ett meddelande så återkommer jag.</p>
+  </div>
+</section>
+
+<!-- ===== KONTAKTUPPGIFTER + FORMULÄR ===== -->
+<section class="section bg-cream">
+  <div class="container">
+    <div class="split">
+      <div>
+        <span class="kicker">Kontaktuppgifter</span>
+        <h2>Så når du mig</h2>
+        <ul class="info-list">
+          <li><span class="lbl">Adress</span><span class="val">Frösthult Gästre 14, 749 72 Fjärdhundra</span></li>
+          <li><span class="lbl">Telefon</span><span class="val"><a href="tel:+46706727037">070-672 70 37</a></span></li>
+          <li><span class="lbl">Telefontid</span><span class="val">Måndag–fredag 8:30–10:30</span></li>
+          <li><span class="lbl">E-post</span><span class="val"><a href="mailto:info@lenalilja.se">info@lenalilja.se</a></span></li>
+          <li><span class="lbl">Instagram</span><span class="val"><a href="https://www.instagram.com/lilja.lena/">@lilja.lena</a></span></li>
+        </ul>
+      </div>
+      <form class="form" action="mailto:info@lenalilja.se" method="post" enctype="text/plain">
+        <div class="field">
+          <label for="namn">Namn</label>
+          <input type="text" id="namn" name="Namn" autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="epost">E-post</label>
+          <input type="email" id="epost" name="E-post" autocomplete="email">
+        </div>
+        <div class="field">
+          <label for="amne">Ämne</label>
+          <input type="text" id="amne" name="Ämne">
+        </div>
+        <div class="field">
+          <label for="meddelande">Meddelande</label>
+          <textarea id="meddelande" name="Meddelande"></textarea>
+        </div>
+        <button class="btn btn--primary" type="submit">Skicka</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== KARTA ===== -->
+<section class="section bg-white">
+  <div class="container">
+    <div class="ph ph--wide"><span class="ph__tag">Karta</span><span>Karta – Fjärdhundra</span></div>
+  </div>
+</section>
+
+<!-- ===== NYHETSBREV ===== -->
+<section class="section--tight bg-cream">
+  <div class="container">
+    <div class="cta-band">
+      <div>
+        <h2>Få nya sadlar först</h2>
+        <p>Nya begagnade sadlar och kurser rakt i inkorgen.</p>
+      </div>
+      <form class="news" action="mailto:info@lenalilja.se" method="post" enctype="text/plain">
+        <input type="email" name="E-post" placeholder="Din e-postadress" aria-label="Din e-postadress">
+        <button class="btn btn--primary" type="submit">Prenumerera</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER (samma på alla sidor) ===== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="brand__name" style="font-family:var(--serif);font-size:1.5rem">Hästbaletten</span>
+        <p style="margin-top:10px">Sadelutprovning, sadelförsäljning och dressyrträning med Lena Lilja. Precision, lätthet och elegans.</p>
+        <div class="social">
+          <a href="https://www.instagram.com/lilja.lena/" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.8.3 2.2.4.6.2 1 .5 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.3 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.8-.3-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c.1-1.2.3-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2Zm0 1.8c-3.1 0-3.5 0-4.7.1-1.1.1-1.7.2-2.1.4-.5.2-.9.4-1.3.8-.4.4-.6.8-.8 1.3-.2.4-.3 1-.4 2.1-.1 1.2-.1 1.6-.1 4.7s0 3.5.1 4.7c.1 1.1.2 1.7.4 2.1.2.5.4.9.8 1.3.4.4.8.6 1.3.8.4.2 1 .3 2.1.4 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1.1-.1 1.7-.2 2.1-.4.5-.2.9-.4 1.3-.8.4-.4.6-.8.8-1.3.2-.4.3-1 .4-2.1.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1.1-.2-1.7-.4-2.1-.2-.5-.4-.9-.8-1.3-.4-.4-.8-.6-1.3-.8-.4-.2-1-.3-2.1-.4-1.2-.1-1.6-.1-4.7-.1Zm0 3.1a4.9 4.9 0 1 1 0 9.8 4.9 4.9 0 0 1 0-9.8Zm0 8.1a3.2 3.2 0 1 0 0-6.4 3.2 3.2 0 0 0 0 6.4Zm6.2-8.3a1.1 1.1 0 1 1-2.3 0 1.1 1.1 0 0 1 2.3 0Z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Sidor</h4>
+        <ul>
+          <li><a href="sadlar.html">Sadlar till salu</a></li>
+          <li><a href="sadelprovning.html">Sadelprovning</a></li>
+          <li><a href="kurser.html">Kurser &amp; träning</a></li>
+          <li><a href="kalender.html">Kalender</a></li>
+          <li><a href="om.html">Om Lena</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul>
+          <li>Frösthult Gästre 14<br>749 72 Fjärdhundra</li>
+          <li><a href="tel:+46706727037">070-672 70 37</a></li>
+          <li><a href="mailto:info@lenalilja.se">info@lenalilja.se</a></li>
+          <li>Telefontid: mån–fre 8:30–10:30</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Hästbaletten – Lena Lilja</span>
+      <span>Precision · lätthet · elegans</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
