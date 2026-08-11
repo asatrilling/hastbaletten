@@ -117,7 +117,7 @@ p{margin:0 0 1rem}
 
 /* ---------- Trust bar ---------- */
 .trust{background:var(--ink-2);color:var(--muted-lt)}
-.trust__row{display:flex;flex-wrap:wrap;gap:10px 24px;justify-content:center;align-items:center;
+.trust__row{display:flex;flex-wrap:wrap;gap:8px 14px;justify-content:center;align-items:center;
   padding:20px 0;text-align:center;font-size:.9rem;letter-spacing:.01em}
 .trust__row span{white-space:nowrap}
 .trust__row strong{color:#fff;font-weight:600}
