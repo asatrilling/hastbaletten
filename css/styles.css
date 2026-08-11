@@ -159,6 +159,11 @@ p{margin:0 0 1rem}
 .ph__tag{position:absolute;top:12px;left:12px;background:rgba(34,48,42,.75);color:#fff;
   font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;padding:4px 10px;border-radius:999px}
 
+/* ---------- Real images in media slots ---------- */
+.media-img{width:100%;border-radius:var(--radius);box-shadow:var(--shadow);display:block;
+  object-fit:cover;object-position:center top}
+.media-img.tall{max-height:600px}
+
 /* ---------- Split (image + text) ---------- */
 .split{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
 .split--rev .split__media{order:2}
