@@ -102,7 +102,9 @@ p{margin:0 0 1rem}
 .hero{position:relative;background:var(--ink);color:#fff;overflow:hidden}
 .hero__media{
   position:absolute;inset:0;
-  background:linear-gradient(120deg,rgba(34,48,42,.92) 0%,rgba(34,48,42,.72) 45%,rgba(46,66,55,.55) 100%);
+  background:
+    linear-gradient(115deg,rgba(34,48,42,.94) 0%,rgba(34,48,42,.72) 40%,rgba(46,66,55,.40) 100%),
+    url(../assets/hero.png) center 28%/cover no-repeat;
 }
 .hero__ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
   color:rgba(255,255,255,.14);font-family:var(--serif);font-size:2rem;letter-spacing:.1em;
