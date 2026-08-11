@@ -116,6 +116,10 @@ p{margin:0 0 1rem}
 .hero h1{color:#fff;margin-bottom:.35em}
 .hero p{color:var(--muted-lt);font-size:1.2rem;max-width:52ch}
 .hero .btn-row{margin-top:32px}
+@media(min-width:960px){
+  .hero{min-height:84vh;display:flex;align-items:center}
+  .hero__inner{padding:56px 0}
+}
 
 /* ---------- Trust bar ---------- */
 .trust{background:var(--ink-2);color:var(--muted-lt)}
