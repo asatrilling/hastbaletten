@@ -117,8 +117,8 @@ p{margin:0 0 1rem}
 
 /* ---------- Trust bar ---------- */
 .trust{background:var(--ink-2);color:var(--muted-lt)}
-.trust__row{display:flex;flex-wrap:nowrap;gap:6px 12px;justify-content:center;align-items:center;
-  padding:18px 16px;text-align:center;font-size:clamp(.6rem,1.35vw,.9rem);letter-spacing:.01em;overflow-x:auto}
+.trust__row{display:flex;flex-wrap:nowrap;gap:5px 10px;justify-content:center;align-items:center;
+  padding:18px 12px;text-align:center;font-size:clamp(.5rem,1vw,.88rem);letter-spacing:0;overflow-x:auto}
 .trust__row span{white-space:nowrap}
 .trust__row strong{color:#fff;font-weight:600}
 .trust__dot{color:var(--leather)}
