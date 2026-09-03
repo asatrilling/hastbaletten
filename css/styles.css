@@ -178,6 +178,16 @@ p{margin:0 0 1rem}
 .press figcaption{font-size:.9rem;color:var(--muted);margin-top:10px}
 @media(max-width:720px){.gallery{grid-template-columns:1fr 1fr}.press{grid-template-columns:1fr}}
 
+/* ---------- Family trio & inline figure ---------- */
+.famgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:36px}
+.famgrid figure{margin:0}
+.famgrid img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center top;border-radius:var(--radius);box-shadow:var(--shadow-sm);display:block}
+.famgrid figcaption{text-align:center;font-size:.9rem;color:var(--muted);margin-top:10px}
+.mini-fig{margin:18px auto 0;max-width:230px}
+.mini-fig img{width:100%;border-radius:var(--radius-sm);box-shadow:var(--shadow-sm);display:block}
+.mini-fig figcaption{font-size:.82rem;color:var(--muted);margin-top:8px;font-style:italic;text-align:center}
+@media(max-width:720px){.famgrid{grid-template-columns:1fr;max-width:340px;margin-left:auto;margin-right:auto}}
+
 /* ---------- Split (image + text) ---------- */
 .split{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
 .split--rev .split__media{order:2}
