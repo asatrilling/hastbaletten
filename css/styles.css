@@ -372,4 +372,4 @@ p{margin:0 0 1rem}
   outline-offset:0;
   background:#17160f;
 }
-.famgrid img.framed{border-radius:4px}
+.famgrid img.framed{border-radius:2px;box-shadow:0 24px 46px -14px rgba(20,20,15,.55), 0 6px 16px rgba(20,20,15,.22)}
