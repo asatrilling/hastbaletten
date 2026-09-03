@@ -169,6 +169,15 @@ p{margin:0 0 1rem}
 .media-img.tall{max-height:600px}
 .media-credit{font-size:.78rem;color:var(--muted);margin:8px 2px 0}
 
+/* ---------- Media & galleri ---------- */
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.gallery img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center;border-radius:var(--radius);box-shadow:var(--shadow-sm);display:block}
+.press{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start;max-width:940px;margin:0 auto}
+.press figure{margin:0}
+.press img{width:100%;border-radius:var(--radius);box-shadow:var(--shadow-sm);display:block}
+.press figcaption{font-size:.9rem;color:var(--muted);margin-top:10px}
+@media(max-width:720px){.gallery{grid-template-columns:1fr 1fr}.press{grid-template-columns:1fr}}
+
 /* ---------- Split (image + text) ---------- */
 .split{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
 .split--rev .split__media{order:2}
