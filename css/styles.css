@@ -376,3 +376,6 @@ p{margin:0 0 1rem}
 .mini-fig img.framed{border-radius:2px;box-shadow:0 24px 46px -14px rgba(20,20,15,.55), 0 6px 16px rgba(20,20,15,.22)}
 .logo-watermark{position:absolute;top:-8px;right:0;width:120px;height:auto;opacity:.18;mix-blend-mode:multiply;pointer-events:none;user-select:none}
 @media(max-width:900px){.logo-watermark{width:86px;opacity:.14}}
+.page-hero{position:relative;overflow:hidden}
+.hero-silhouette{position:absolute;right:5%;top:50%;transform:translateY(-50%);width:300px;max-width:32%;opacity:.5;pointer-events:none;user-select:none}
+@media(max-width:760px){.hero-silhouette{opacity:.22;right:-6%;width:200px}}
