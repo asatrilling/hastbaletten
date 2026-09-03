@@ -362,3 +362,14 @@ p{margin:0 0 1rem}
 .famgrid figcaption{font-size:.86rem}
 .famgrid figcaption .fam-name{display:block;font-weight:600;color:var(--ink);font-size:.95rem}
 .famgrid figcaption .fam-meta{display:block;font-size:.8rem;color:var(--muted);margin-top:2px}
+
+/* ===== Inramade foton (passepartout + guldlinje + 3D-skugga) ===== */
+.framed{
+  border:9px solid #fff;
+  border-radius:4px;
+  box-shadow:0 24px 46px -14px rgba(34,48,42,.50), 0 6px 14px rgba(34,48,42,.16);
+  outline:1px solid rgba(180,136,77,.55);
+  outline-offset:0;
+  background:#fff;
+}
+.famgrid img.framed{border-radius:4px}
