@@ -88,6 +88,7 @@ p{margin:0 0 1rem}
 .nav{display:flex;align-items:center;justify-content:space-between;height:74px}
 .brand{display:flex;flex-direction:column;line-height:1;text-decoration:none}
 .brand:hover{text-decoration:none}
+.brand__logo{height:60px;width:auto;display:block;mix-blend-mode:multiply}
 .brand__name{font-family:var(--serif);font-size:1.5rem;font-weight:700;color:var(--ink)}
 .brand__sub{font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:var(--leather-dk);margin-top:3px}
 .nav__links{display:flex;align-items:center;gap:26px;list-style:none;margin:0;padding:0}
