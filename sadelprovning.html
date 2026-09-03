@@ -94,7 +94,7 @@
       <div>
         <span class="kicker">Boka sadelprovning</span>
         <h2>Berätta om dig och din häst</h2>
-        <p>Fyll i formuläret så återkommer jag med förslag på tid. Ju mer du berättar om hästen och nuvarande sadel, desto bättre kan jag förbereda mig.</p>
+        <p>För att jag ska kunna förbereda mig så bra som möjligt inför sadelprovningen behöver du fylla i formuläret nedan.</p>
         <p class="note" style="color:var(--muted)">Vi återkommer så snart vi kan, oftast inom ett par dagar.</p>
       </div>
       <form class="form" action="mailto:info@lenalilja.se" method="post" enctype="text/plain">
@@ -115,6 +115,47 @@
         <div class="field">
           <label for="hast">Hästens ras/ålder</label>
           <input type="text" id="hast" name="Hästens ras/ålder">
+        </div>
+        <div class="field">
+          <label for="bilder">Bilder på hästen</label>
+          <input type="file" id="bilder" name="Bilder" accept="image/*" multiple>
+          <p class="note">Ta en bild från båda sidor så att halsansättning, rygglinje, bakdel, benställning och hovar syns tydligt. Bifoga bilderna i mejlet som öppnas när du skickar – eller mejla dem till info@lenalilja.se.</p>
+        </div>
+        <div class="row">
+          <div class="field">
+            <label for="byxstorlek">Ryttarens byxstorlek</label>
+            <input type="text" id="byxstorlek" name="Ryttarens byxstorlek">
+          </div>
+          <div class="field">
+            <label for="langd">Ryttarens längd</label>
+            <input type="text" id="langd" name="Ryttarens längd" placeholder="t.ex. 168 cm">
+          </div>
+        </div>
+        <div class="row">
+          <div class="field">
+            <label for="sadelstorlek">Önskad sadelstorlek</label>
+            <select id="sadelstorlek" name="Önskad sadelstorlek">
+              <option value="">Välj (14–18 tum)</option>
+              <option>14"</option>
+              <option>14,5"</option>
+              <option>15"</option>
+              <option>15,5"</option>
+              <option>16"</option>
+              <option>16,5"</option>
+              <option>17"</option>
+              <option>17,5"</option>
+              <option>18"</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="budget">Budget för köp av sadel</label>
+            <select id="budget" name="Budget">
+              <option value="">Välj budget</option>
+              <option>Begagnat – från ca 10 000 kr</option>
+              <option>Nytt – från ca 40 000 kr</option>
+              <option>Osäker / vill diskutera</option>
+            </select>
+          </div>
         </div>
         <div class="field">
           <label for="meddelande">Meddelande</label>
