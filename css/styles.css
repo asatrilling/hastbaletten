@@ -377,3 +377,25 @@ p{margin:0 0 1rem}
 .logo-watermark{position:absolute;top:-8px;right:0;width:120px;height:auto;opacity:.18;mix-blend-mode:multiply;pointer-events:none;user-select:none}
 @media(max-width:900px){.logo-watermark{width:86px;opacity:.14}}
 .page-hero{position:relative;overflow:hidden}
+
+/* ===== Omdömen / recensioner ===== */
+.quote{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:14px;
+  padding:26px 24px;
+  margin:0;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  box-shadow:0 8px 22px rgba(20,20,15,.06);
+}
+.quote__stars{color:var(--gold,#B4884D);font-size:1.05rem;letter-spacing:2px}
+.quote blockquote{
+  margin:0;
+  font-family:var(--serif);
+  font-size:1.08rem;
+  line-height:1.55;
+  color:var(--ink);
+}
+.quote figcaption{color:var(--muted);font-size:.9rem;font-weight:500}
