@@ -118,8 +118,8 @@ p{margin:0 0 1rem}
 .hero p{color:var(--muted-lt);font-size:1.2rem;max-width:52ch}
 .hero .btn-row{margin-top:32px}
 @media(min-width:960px){
-  .hero{min-height:84vh;display:flex;align-items:flex-end}
-  .hero__inner{padding:56px 0 64px}
+  .hero{min-height:90vh}
+  .hero__inner{padding:44vh 0 84px}
 }
 
 /* ---------- Trust bar ---------- */
