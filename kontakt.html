@@ -73,7 +73,12 @@
           <li><span class="lbl">Instagram</span><span class="val"><a href="https://www.instagram.com/lilja.lena/">@lilja.lena</a></span></li>
         </ul>
       </div>
-      <form class="form" data-mailto="info@lenalilja.se">
+      <form class="form" action="https://formsubmit.co/info@lenalilja.se" method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="_subject" value="Meddelande via lenalilja.se">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://lenalilja.se/tack.html">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
         <div class="field">
           <label for="namn">Namn</label>
           <input type="text" id="namn" name="Namn" autocomplete="name">
@@ -104,7 +109,12 @@
         <h2>Få nya sadlar först</h2>
         <p>Nya begagnade sadlar och kurser rakt i inkorgen.</p>
       </div>
-      <form class="news" data-mailto="info@lenalilja.se">
+      <form class="news" action="https://formsubmit.co/info@lenalilja.se" method="POST">
+        <input type="hidden" name="_subject" value="Nyhetsbrev – ny anmälan via lenalilja.se">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://lenalilja.se/tack.html">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
         <input type="email" name="E-post" placeholder="Din e-postadress" aria-label="Din e-postadress">
         <button class="btn btn--primary" type="submit">Prenumerera</button>
       </form>

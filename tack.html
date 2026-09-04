@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tack – Hästbaletten | Lena Lilja</title>
+<meta name="description" content="Tack för din förfrågan till Hästbaletten. Lena hör av sig så snart hon kan.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css?v=22">
+<link rel="icon" type="image/jpeg" href="assets/logga.jpg">
+</head>
+<body>
+
+<!-- ===== HEADER (samma på alla sidor) ===== -->
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <img src="assets/logga.jpg" alt="Hästbaletten – Lena Lilja" class="brand__logo">
+    </a>
+    <button class="nav__toggle" aria-label="Meny" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="nav__links">
+      <li><a href="index.html">Start</a></li>
+      <li><a href="sadlar.html">Sadlar till salu</a></li>
+      <li><a href="sadelprovning.html">Sadelprovning</a></li>
+      <li><a href="kurser.html">Kurser &amp; träning</a></li>
+      <li><a href="kalender.html">Kalender</a></li>
+      <li><a href="om.html">Om Lena</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+      <li class="nav__cta"><a class="btn btn--primary" href="sadelprovning.html#boka">Boka provning</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- ===== TACK ===== -->
+<section class="section bg-cream" style="min-height:56vh;display:flex;align-items:center">
+  <div class="container center" style="max-width:640px">
+    <div style="font-size:3rem;line-height:1;margin-bottom:8px">🐴</div>
+    <span class="kicker">Tack!</span>
+    <h1>Din förfrågan är skickad</h1>
+    <p class="lead" style="margin:0 auto">Tack för att du hörde av dig till Hästbaletten. Lena återkommer så snart hon kan – oftast inom ett par dagar.</p>
+    <p style="color:var(--muted);margin-top:14px">Har du bråttom? Ring gärna <a href="tel:+46706727037">070-672 70 37</a> (telefontid mån–fre 8:30–10:30) eller mejla <a href="mailto:info@lenalilja.se">info@lenalilja.se</a>.</p>
+    <div class="btn-row center" style="margin-top:28px">
+      <a class="btn btn--primary" href="index.html">Till startsidan</a>
+      <a class="btn btn--outline" href="sadlar.html">Se sadlar till salu</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER (samma på alla sidor) ===== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logga.jpg" alt="Hästbaletten – Lena Lilja" style="width:132px;height:auto;background:#fff;border-radius:12px;padding:10px 12px;display:block;margin-bottom:14px;box-shadow:0 6px 18px rgba(0,0,0,.18)">
+        <span class="brand__name" style="font-family:var(--serif);font-size:1.5rem">Hästbaletten</span>
+        <p style="margin-top:10px">Sadelutprovning, sadelförsäljning och dressyrträning med Lena Lilja. Precision, lätthet och elegans.</p>
+      </div>
+      <div>
+        <h4>Sidor</h4>
+        <ul>
+          <li><a href="sadlar.html">Sadlar till salu</a></li>
+          <li><a href="sadelprovning.html">Sadelprovning</a></li>
+          <li><a href="kurser.html">Kurser &amp; träning</a></li>
+          <li><a href="kalender.html">Kalender</a></li>
+          <li><a href="om.html">Om Lena</a></li>
+          <li><a href="media.html">Media</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul>
+          <li>Frösthult Gästre 14<br>749 72 Fjärdhundra</li>
+          <li><a href="tel:+46706727037">070-672 70 37</a></li>
+          <li><a href="mailto:info@lenalilja.se">info@lenalilja.se</a></li>
+          <li>Telefontid: mån–fre 8:30–10:30</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Hästbaletten – Lena Lilja</span>
+      <span>Precision · lätthet · elegans</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js?v=2"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

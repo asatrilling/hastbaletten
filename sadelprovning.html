@@ -116,7 +116,12 @@
         <p>För att jag ska kunna förbereda mig så bra som möjligt inför sadelprovningen behöver du fylla i formuläret nedan.</p>
         <p class="note" style="color:var(--muted)">Vi återkommer så snart vi kan, oftast inom ett par dagar.</p>
       </div>
-      <form class="form" data-mailto="info@lenalilja.se">
+      <form class="form" action="https://formsubmit.co/info@lenalilja.se" method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="_subject" value="Ny bokningsförfrågan – lenalilja.se">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://lenalilja.se/tack.html">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
         <div class="field">
           <label for="typ">Vad vill du boka?</label>
           <select id="typ" name="Vad vill du boka">
