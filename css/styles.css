@@ -113,13 +113,13 @@ p{margin:0 0 1rem}
     radial-gradient(circle at 78% 30%, rgba(180,136,77,.18), transparent 42%),
     repeating-linear-gradient(135deg,#243329 0 22px,#26362c 22px 44px);
 }
-.hero__inner{position:relative;padding:120px 0 108px;max-width:760px}
+.hero__inner{position:relative;padding:210px 0 76px;max-width:760px}
 .hero h1{color:#fff;margin-bottom:.35em}
 .hero p{color:var(--muted-lt);font-size:1.2rem;max-width:52ch}
 .hero .btn-row{margin-top:32px}
 @media(min-width:960px){
-  .hero{min-height:84vh;display:flex;align-items:center}
-  .hero__inner{padding:56px 0}
+  .hero{min-height:84vh;display:flex;align-items:flex-end}
+  .hero__inner{padding:56px 0 64px}
 }
 
 /* ---------- Trust bar ---------- */
@@ -347,7 +347,7 @@ p{margin:0 0 1rem}
   .form .row{grid-template-columns:1fr}
   .footer-grid{grid-template-columns:1fr}
   .cta-band{padding:34px 26px}
-  .hero__inner{padding:80px 0 72px}
+  .hero__inner{padding:150px 0 56px}
 }
 
 /* ===== Sadelgalleri (flera bilder per sadel) ===== */
