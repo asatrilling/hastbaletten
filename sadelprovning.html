@@ -116,7 +116,7 @@
         <p>För att jag ska kunna förbereda mig så bra som möjligt inför sadelprovningen behöver du fylla i formuläret nedan.</p>
         <p class="note" style="color:var(--muted)">Vi återkommer så snart vi kan, oftast inom ett par dagar.</p>
       </div>
-      <form class="form" action="mailto:info@lenalilja.se" method="post" enctype="text/plain">
+      <form class="form" data-mailto="info@lenalilja.se">
         <div class="field">
           <label for="typ">Vad vill du boka?</label>
           <select id="typ" name="Vad vill du boka">
@@ -237,7 +237,7 @@
   </div>
 </footer>
 
-<script src="js/main.js"></script>
+<script src="js/main.js?v=2"></script>
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

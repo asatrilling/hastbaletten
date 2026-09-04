@@ -73,7 +73,7 @@
           <li><span class="lbl">Instagram</span><span class="val"><a href="https://www.instagram.com/lilja.lena/">@lilja.lena</a></span></li>
         </ul>
       </div>
-      <form class="form" action="mailto:info@lenalilja.se" method="post" enctype="text/plain">
+      <form class="form" data-mailto="info@lenalilja.se">
         <div class="field">
           <label for="namn">Namn</label>
           <input type="text" id="namn" name="Namn" autocomplete="name">
@@ -104,7 +104,7 @@
         <h2>Få nya sadlar först</h2>
         <p>Nya begagnade sadlar och kurser rakt i inkorgen.</p>
       </div>
-      <form class="news" action="mailto:info@lenalilja.se" method="post" enctype="text/plain">
+      <form class="news" data-mailto="info@lenalilja.se">
         <input type="email" name="E-post" placeholder="Din e-postadress" aria-label="Din e-postadress">
         <button class="btn btn--primary" type="submit">Prenumerera</button>
       </form>
@@ -154,7 +154,7 @@
   </div>
 </footer>
 
-<script src="js/main.js"></script>
+<script src="js/main.js?v=2"></script>
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

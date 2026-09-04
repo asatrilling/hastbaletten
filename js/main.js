@@ -35,3 +35,24 @@
     });
   });
 })();
+
+// Formulär: öppna färdigifyllt mejl istället för osäker mailto-POST
+(function () {
+  document.querySelectorAll('form[data-mailto]').forEach(function (f) {
+    f.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var to = f.getAttribute('data-mailto');
+      var subject = f.classList.contains('news') ? 'Nyhetsbrev – anmälan' : 'Förfrågan från lenalilja.se';
+      var lines = [];
+      f.querySelectorAll('input, select, textarea').forEach(function (el) {
+        var t = el.type;
+        if (t === 'submit' || t === 'button' || t === 'file') return;
+        var name = (el.getAttribute('name') || el.id || '').trim();
+        var val = (el.value || '').trim();
+        if (val) lines.push(name + ': ' + val);
+      });
+      var href = 'mailto:' + to + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(lines.join('\n'));
+      window.location.href = href;
+    });
+  });
+})();
