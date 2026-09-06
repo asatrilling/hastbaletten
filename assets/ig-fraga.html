@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1080px;overflow:hidden}
+  .card{position:relative;width:1080px;height:1080px;font-family:'Inter',sans-serif;overflow:hidden}
+  .card img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:52% 12%}
+  .shade{position:absolute;inset:0;background:
+     linear-gradient(180deg, rgba(20,25,20,.10) 0%, rgba(20,25,20,.18) 38%, rgba(18,24,20,.80) 80%, rgba(16,22,18,.92) 100%);}
+  .side{position:absolute;inset:0;background:linear-gradient(90deg, rgba(18,24,20,.55) 0%, rgba(18,24,20,0) 55%);}
+  .content{position:absolute;left:76px;right:76px;bottom:78px;color:#fff}
+  .kicker{font-size:26px;font-weight:600;letter-spacing:.30em;text-transform:uppercase;color:#E7C07E;margin-bottom:22px;text-shadow:0 2px 10px rgba(0,0,0,.5)}
+  h1{font-family:'Playfair Display',serif;font-weight:700;font-size:82px;line-height:1.04;letter-spacing:-.5px;text-shadow:0 3px 18px rgba(0,0,0,.5)}
+  h1 .em{font-style:italic;color:#E7C07E}
+  .sub{font-family:'Playfair Display',serif;font-style:italic;font-size:38px;margin-top:20px;color:#f3efe6;text-shadow:0 2px 12px rgba(0,0,0,.55)}
+  .brand{margin-top:40px;display:flex;align-items:center;gap:14px;font-size:26px;font-weight:600;letter-spacing:.02em;color:#fff}
+  .brand .dot{width:6px;height:6px;border-radius:50%;background:#E7C07E;display:inline-block}
+  .brand .site{color:#E7C07E}
+  .top{position:absolute;top:70px;left:76px;color:#fff;font-family:'Playfair Display',serif;font-size:34px;font-weight:700;letter-spacing:.04em;text-shadow:0 2px 12px rgba(0,0,0,.5)}
+</style>
+</head>
+<body>
+  <div class="card">
+    <img class="bg" src="hero.png" alt="">
+    <div class="shade"></div>
+    <div class="side"></div>
+    <div class="top">Hästbaletten</div>
+    <div class="content">
+      <div class="kicker">Sadelprovning</div>
+      <h1>Perfekt för hästen.<br><span class="em">Eller</span> perfekt för dig?</h1>
+      <div class="sub">Går det ens att få båda?</div>
+      <div class="brand"><span>Lena Lilja</span><span class="dot"></span><span class="site">lenalilja.se</span></div>
+    </div>
+  </div>
+</body>
+</html>
