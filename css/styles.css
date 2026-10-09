@@ -353,7 +353,7 @@ p{margin:0 0 1rem}
 
 /* ===== Sadelgalleri (flera bilder per sadel) ===== */
 .gal{display:block}
-.gal__main{width:100%;height:320px;object-fit:contain;display:block;background:var(--cream)}
+.gal__main{width:100%;height:320px;object-fit:contain;display:block;background:var(--cream);padding:16px;border-bottom:1px solid var(--line)}
 .gal__thumbs{display:flex;gap:6px;padding:8px 8px 0;flex-wrap:wrap}
 .gal__t{width:54px;height:44px;border:2px solid transparent;border-radius:8px;background-size:cover;background-position:center;cursor:pointer;padding:0;flex:0 0 auto}
 .gal__t.is-active{border-color:var(--leather)}
