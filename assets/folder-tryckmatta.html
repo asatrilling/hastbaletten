@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="sv"><head><meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+ :root{--ink:#22302A;--gold:#C8A24A;--gold-l:#E7C07E;--cream:#F6F1E7;--line:#e3dccb;--text:#2b2b28}
+ *{margin:0;padding:0;box-sizing:border-box}
+ @page{size:A4;margin:0}
+ html,body{width:210mm}
+ body{font-family:'Inter',sans-serif;color:var(--text);background:#fff;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+ .page{width:210mm;min-height:295mm;display:flex;flex-direction:column}
+
+ /* Topp */
+ .top{background:var(--ink);color:#fff;padding:8mm 14mm 4mm;display:flex;align-items:center;gap:7mm}
+ .top img{width:26mm;height:auto;background:#fff;border-radius:7px;padding:5px 7px}
+ .top .brand{flex:1}
+ .top .brand .nm{font-family:'Playfair Display',serif;font-weight:700;font-size:30pt;line-height:1}
+ .top .brand .ll{font-size:11pt;color:var(--gold-l);letter-spacing:.22em;text-transform:uppercase;margin-top:3px}
+ .top .web{font-family:'Playfair Display',serif;font-style:italic;font-size:14pt;color:var(--gold-l);white-space:nowrap}
+
+ /* Rubrik */
+ .head{padding:6mm 14mm 3mm;text-align:center}
+ .kicker{font-size:9.5pt;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--gold)}
+ h1{font-family:'Playfair Display',serif;font-weight:700;font-size:27pt;line-height:1.08;color:var(--ink);margin:9px 0 7px}
+ h1 em{font-style:italic;color:var(--gold)}
+ .lead{font-size:11.5pt;line-height:1.5;color:#44433f;max-width:155mm;margin:0 auto}
+
+ /* Mitten: bild + text */
+ .mid{display:flex;gap:9mm;padding:2mm 14mm 1mm;align-items:stretch}
+ .mid .ph{width:74mm;flex:0 0 74mm}
+ .mid .ph img{width:100%;height:100%;object-fit:cover;border-radius:10px;border:1px solid var(--line)}
+ .mid .ph .cap{font-size:8pt;color:#8a8577;margin-top:5px;text-align:center;font-style:italic}
+ .mid .tx{flex:1}
+ .mid .tx h2{font-family:'Playfair Display',serif;font-size:15.5pt;color:var(--ink);margin-bottom:6px}
+ .mid .tx p{font-size:10.5pt;line-height:1.45;color:#44433f;margin-bottom:6px}
+ .reveal{list-style:none}
+ .reveal li{font-size:10.5pt;line-height:1.45;padding-left:17px;position:relative;margin-bottom:5px;color:#333}
+ .reveal li::before{content:"";position:absolute;left:0;top:7px;width:7px;height:7px;background:var(--gold);border-radius:50%}
+ .reveal li b{color:var(--ink)}
+
+ /* Klubbupplägg */
+ .club{margin:4mm 14mm 0;background:var(--cream);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:10px;padding:5mm 8mm}
+ .club h2{font-family:'Playfair Display',serif;font-size:15pt;color:var(--ink);margin-bottom:8px}
+ .club .row{display:flex;gap:0;margin-top:4px}
+ .club .row>div{flex:1;padding:0 7mm}
+ .club .row>div:first-child{padding-left:0}
+ .club .row>div:last-child{padding-right:0;border-left:1px solid #d8cdb4}
+ .club .row .t{font-size:9pt;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:4px}
+ .club .row p{font-size:10pt;line-height:1.45;color:#44433f}
+
+ /* Priser */
+ .prices{display:flex;gap:5mm;padding:4mm 14mm 0}
+ .pc{flex:1;border:1px solid var(--line);border-radius:10px;padding:4mm 4mm;text-align:center}
+ .pc .n{font-size:9.5pt;font-weight:600;color:var(--ink);line-height:1.3;min-height:26px}
+ .pc .p{font-family:'Playfair Display',serif;font-weight:700;font-size:16pt;color:var(--gold);margin-top:6px}
+ .note{text-align:center;font-size:8.5pt;color:#8a8577;padding:2.5mm 14mm 0}
+
+ /* Fot */
+ .foot{margin-top:auto;background:var(--ink);color:#fff;padding:4mm 14mm;display:flex;justify-content:space-between;align-items:center;gap:6mm}
+ .foot .cta{font-family:'Playfair Display',serif;font-size:14pt;font-weight:600;line-height:1.25}
+ .foot .cta em{font-style:italic;color:var(--gold-l)}
+ .foot .ct{font-size:10pt;line-height:1.7;text-align:right;white-space:nowrap}
+ .foot .ct b{color:var(--gold-l)}
+</style></head>
+<body><div class="page">
+
+ <div class="top">
+  <img src="logga.jpg" alt="Hästbaletten">
+  <div class="brand"><div class="nm">Hästbaletten</div><div class="ll">Lena Lilja · Sadeltekniker &amp; dressyr</div></div>
+  <div class="web">lenalilja.se</div>
+ </div>
+
+ <div class="head">
+  <div class="kicker">Sitsprofilen · Lenas egen metod</div>
+  <h1>Se ryttarens sits <em>på skärm</em></h1>
+  <div class="lead">Bjud in Hästbaletten till er klubb för en dag med tryckmattan – ett tydligt, pedagogiskt verktyg som gör sits och hjälpgivning synlig. Inga gissningar, bara svart på vitt.</div>
+ </div>
+
+ <div class="mid">
+  <div class="ph">
+   <img src="tryckmatta.jpg" alt="Tryckmattans värmekarta över ryttarens sittben">
+   <div class="cap">Tryckmattan visar vikten via sittbenen i realtid.</div>
+  </div>
+  <div class="tx">
+   <h2>Vad är Sitsprofilen?</h2>
+   <p>Sitsprofilen är ett unikt koncept som Lena Lilja själv har utvecklat. En tryckmatta visar på skärm hur ryttaren fördelar vikten via sittbenen – och gör ojämnheter och svagheter tydliga. En riktig aha-upplevelse.</p>
+   <ul class="reveal">
+    <li><b>Galoppfattning</b> – ser du var vikten hamnar i själva fattningen</li>
+    <li><b>Skänkelvikning</b> – följ hur sitsen förflyttar sig i sidledsarbetet</li>
+    <li><b>Halvhalter</b> – upptäck hur balansen påverkar hästens svar</li>
+   </ul>
+   <p>Resultat: bättre balans, medvetenhet och kommunikation med hästen – snabbare.</p>
+  </div>
+ </div>
+
+ <div class="club">
+  <h2>En Sitsprofil-dag hos er klubb</h2>
+  <div class="row">
+   <div>
+    <div class="t">För hela gruppen</div>
+    <p>Föreläsning &amp; demonstration av tryckmattan (1,5&nbsp;tim): teori om sits och hjälpgivning, live-demo och frågestund. Lärorikt och inspirerande för alla nivåer.</p>
+   </div>
+   <div>
+    <div class="t">Individuellt under dagen</div>
+    <p>Enskilda Sitsprofil-pass (30 min/ekipage). Bäst effekt med en dressyrlektion i direkt anslutning – då omsätts insikterna direkt i sadeln.</p>
+   </div>
+  </div>
+ </div>
+
+ <div class="prices">
+  <div class="pc"><div class="n">Föreläsning &amp; demonstration<br>1,5 tim · gruppen</div><div class="p">2 500 kr</div></div>
+  <div class="pc"><div class="n">Sitsprofilen med tryckmattan<br>30 min · enskilt</div><div class="p">800 kr</div></div>
+  <div class="pc"><div class="n">Dressyrlektion i anslutning<br>30 min</div><div class="p">800 kr</div></div>
+ </div>
+ <div class="note">Priser exkl. milersättning 30 kr/mil. Hästbaletten kommer till er – i hela Sverige.</div>
+
+ <div class="foot">
+  <div class="cta">Boka en dag till<br><em>er klubb</em></div>
+  <div class="ct">
+   <b>Lena Lilja</b>, Hästbaletten<br>
+   070-672 70 37 · telefontid mån–fre 8:30–10:30<br>
+   info@lenalilja.se · lenalilja.se
+  </div>
+ </div>
+
+</div></body></html>
